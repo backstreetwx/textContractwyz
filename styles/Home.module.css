@@ -1,11 +1,15 @@
 .container {
-  width: 100%;
   max-width: 1440px;
   padding: 0 1rem;
-  margin: 0 auto;
+  height: 200px;
+  display: table;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: auto;
 }
 
 .gradientText0 {

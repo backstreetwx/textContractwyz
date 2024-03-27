@@ -40,7 +40,7 @@ const Home: NextPage = () => {
               fontSize: "5rem",
               fontWeight: "bold",
             }}
-            >{counter}</p>
+            >{counter.toNumber()}</p>
           )}
           {address && (
             <div className={styles.buttonContainer}>
