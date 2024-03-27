@@ -73,6 +73,7 @@ const Home: NextPage = () => {
             <p>Connect your wallet to interact with the counter!</p>
           )}
         </div>
+
       </div>
     </main>
   );
