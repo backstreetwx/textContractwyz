@@ -143,3 +143,35 @@
 .logo img {
   filter: invert(1);
 }
+
+.counterContainer {
+  text-align: center;
+  position: relative;
+  max-width: 300px;
+}
+
+.buttonContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  min-width: 500px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appButton {
+  background-color: #ffffff;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
