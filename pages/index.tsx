@@ -60,19 +60,9 @@ const Home: NextPage = () => {
               >+</Web3Button>
             </div>
           )}
-          {address == owner ? (
-            <Web3Button
-              contractAddress={CONTRACT_ADDRESS}
-              action={(contract) => contract.call(
-                "reset"
-              )}
-              >Reset</Web3Button>
-          ) : address ? (
-            <p>You are not the owner of this contract.</p>
-          ) : (
-            <p>Connect your wallet to interact with the counter!</p>
-          )}
+          
         </div>
+
 
       </div>
     </main>

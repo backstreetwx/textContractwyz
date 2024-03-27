@@ -3,6 +3,9 @@
   max-width: 1440px;
   padding: 0 1rem;
   margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .gradientText0 {
