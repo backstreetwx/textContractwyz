@@ -49,6 +49,7 @@ const Home: NextPage = () => {
               action={(contract) => contract.call(
                 "decrement"
               )}
+              onSuccess={() => alert("Counter decremented!")}
               onError={(error) => alert(error)}
               >-</Web3Button>
               <Web3Button
